@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".MainActivity"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/tv_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello  world jhkljhkhjkhdkjhfjksdahfkdhaskjhfdkjsahfdkjsahfkdjsahdjk"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#a5d"/>
+<ImageView
+    android:id="@+id/iv_gif"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/loading"
+    android:layout_below="@+id/tv_introduce"/>
+    <ImageView
+        android:id="@+id/iv_gif_zhanwei"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="100dp"
+        android:layout_below="@+id/tv_introduce"
+        android:src="@drawable/loading"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+</RelativeLayout>
+</android.support.v7.widget.CardView>

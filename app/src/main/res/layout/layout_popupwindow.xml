@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaf"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+    <com.jason.loaddatademo.widget.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaf"
+        android:id="@+id/fl_layout">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="呆萌"
+            android:textColor="#323232"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="爆笑"
+            android:textColor="#323232"
+            android:layout_margin="5dp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="二货"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="喵星人"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="汪星人"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="失误"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="动物"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="逗比"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="熊孩子"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="邪恶"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="坑爹"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+        <TextView
+        style="@style/text_flag_01"
+        android:background="@drawable/flag_04"
+        android:text="牛B"
+        android:textColor="#323232"
+        android:layout_margin="5dp"/>
+        <TextView
+            style="@style/text_flag_01"
+            android:background="@drawable/flag_04"
+            android:text="逆天"
+            android:textColor="#323232"
+            android:layout_margin="5dp"/>
+
+
+    </com.jason.loaddatademo.widget.FlowLayout>
+</LinearLayout>
